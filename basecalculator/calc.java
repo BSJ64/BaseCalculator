@@ -13,9 +13,9 @@ public class calc {
         codeList.add(result);
         input = input / base;
       }
-      for (int i = codeList.size() - 1; i != -1; i--){
-          System.out.print(codeList.get(i));
-      }
-      System.out.println();
+     for (int i = codeList.size() - 1; i != -1; i--){
+         System.out.print(codeList.get(i));
+     }
+     System.out.println();
     } 
 }
