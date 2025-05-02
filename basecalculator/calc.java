@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class calc {
     public void convert(int input, int base){
-      ArrayList<Integer> codeList = new ArrayList<Integer>();
+      ArrayList<Integer> codeList = new ArrayList<>();
       while (input != 0){
         int result = input % base;
         codeList.add(result);
